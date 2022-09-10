@@ -1,0 +1,19 @@
+no-player-message: "Du bist kein Spieler LOL"
+no-permission-message: "Du hast keine Rechte, du KEK. Du brauchst die Permission: %permission."
+
+false-player-error: "Der Spieler: %player ist nicht online oder existiert nicht!"
+
+enderdrop-self-delivery: "Du kannst dir selbst kein Item überreichen!"
+enderdrop-no-item-in-hand: "Du hast kein Item in der Hand!"
+enderdrop-delivered: "Du hast %player ein Item über %enderdrop gesendet!"
+enderdrop-recieved: "Du hast erfolgreich %transferamount %itemname per %enderdrop von %sender erhalten!"
+
+enderchest-confirm: "Du hast erfolgreich die %enderchest von %player geöffnet!"
+enderchest-notify: "Deine %enderchest wurde von %player geöffnet!"
+enderchest-self: "Du hast erfolgreich deine %enderchest geöffnet!"
+
+invsee-confirm: "Du hast erfolgreich das %inventory von %player geöffnet!"
+invsee-notify: "Dein %inventory wurde von %player geöffnet!"
+invsee-self-error: "Du kannst dein eigenes %inventory nicht öffnen!"
+
+language: "en"

@@ -1,0 +1,68 @@
+name: Hekatesutilsplugin
+version: '${project.version}'
+main: ch.hekates.hekatesutilsplugin.Main
+api-version: 1.18
+author: Hekates
+description: All the Utilities you need on your Minecraft server.
+website: https://github.com/Hekates
+prefix: HUP >>
+
+commands:
+  enderdrop:
+    aliases: [ed]
+
+  enderchest:
+    aliases: [ec]
+
+  invsee:
+    aliases: [inv]
+
+  statistics:
+    aliases: [stats]
+
+  pastecoords:
+
+  coords:
+
+permissions:
+  hup.*:
+    children:
+      hup.coordinates: true
+      hup.statistics: true
+      hup.invsee: true
+      hup.enderdrop: true
+      hup.enderchest: true
+      hup.enderchest.silent: true
+      hup.enderchest.others: true
+
+  hup.enderdrop:
+    default: true
+
+  hup.enderchest.*:
+    children:
+      hup.enderchest: true
+      hup.enderchest.silent: true
+      hup.enderchest.others: true
+
+  hup.enderchest:
+    default: true
+
+  hup.enderchest.silent:
+    default: false
+
+  hup.enderchest.others:
+    default: false
+
+  hup.invsee:
+    default: op
+
+  hup.statistics:
+    default: true
+
+  hup.coordinates:
+    default: true
+    children:
+      hup.coordinates.others: false
+
+  hup.coordinates.others:
+    default: op
